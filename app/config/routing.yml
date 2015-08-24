@@ -1,3 +1,12 @@
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+admincp:
+  resource: "@BackendBundle/Resources/config/routing.yml"
+
+authlogin:
+  resource: "@BackendBundle/Resources/config/routing.yml"
+
+logincp:
+  resource: "@BackendBundle/Resources/config/routing.yml"

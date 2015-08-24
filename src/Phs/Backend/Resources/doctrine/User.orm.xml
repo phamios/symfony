@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="BackendBundle\Entity\Users" table="tbl_users">
+    <id name="id" type="integer" column="id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="username" type="string" column="username" nullable="true"/>
+    <field name="userpass" type="string" column="userpass" nullable="true"/>
+    <field name="usertype" type="int" column="usertype"  nullable="true"/>
+    <field name="createdate" type="datetime" column="createdate"   nullable="true"/>
+
+  </entity>
+</doctrine-mapping>

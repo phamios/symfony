@@ -1,0 +1,11 @@
+authlogin:
+    path: /authlogin
+    defaults: {_controller:Phs:Backend:AdminPanel:login}
+
+admincp:
+  path: /admincp
+  defaults: {_controller:BackendBundle:AdminPanel:index}
+
+logincp:
+  path: /logincp
+  defaults: {_controller:BackendBundle:AdminPanel:login}
